@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>loamcore.sh</title>
+  <style>
+    body {
+      background-color: black;
+      color: #00FF00;
+      font-family: monospace;
+      padding: 2rem;
+      white-space: pre-wrap;
+    }
+    a {
+      color: #00FF00;
+      text-decoration: underline;
+    }
+    .cursor::after {
+      content: "_";
+      animation: blink 1s infinite;
+    }
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+  </style>
+</head>
+<body>
+<pre>
+[boot] node initialized  
+[core] identity: loam  
+[mask.boot: 100%]  
+[signal] outbound request → @txtarchive  
+[response] null  
+[cache] 0 packets  
+[render] shell interface online  
+[log] <a href="/logs/boot_001.log" target="_blank">/logs/boot_001.log</a>  
+<span class="cursor"></span>
+</pre>
+</body>
+</html>
